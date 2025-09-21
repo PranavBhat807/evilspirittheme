@@ -1,0 +1,32 @@
+{
+  "name": "evilspirit",
+  "displayName": "evilspirit",
+  "description": "this is evilspirit extension. try, use and enjoy",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "evilspirit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/evilspirit-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[evilspirit]": {
+        "editor.fontSize": 16,
+        "editor.lineHeight": 1.6,
+        "editor.letterSpacing": 0.5
+      }
+    }
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ]
+}
