@@ -19,14 +19,16 @@
       }
     ],
     "configurationDefaults": {
-      "[evilspirit]": {
-        "editor.fontSize": 16,
-        "editor.lineHeight": 1.6,
-        "editor.letterSpacing": 0.5
-      }
+      "editor.fontSize": 16,
+      "editor.lineHeight": 1.6,
+      "editor.letterSpacing": 0.3
     }
   },
   "activationEvents": [
     "onStartupFinished"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PranavBhat807/evilspirittheme.git"
+  }
 }
